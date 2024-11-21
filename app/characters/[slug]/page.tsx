@@ -50,7 +50,7 @@ function page() {
     <div className="bg-gray-800 text-white py-20 px-10">
       {" "}
       <h1
-        className={`text-xl md:text-3xl font-bold my-5  flex justify-center items-center name-${character?.house.slug}`}
+        className={`text-xl md:text-3xl font-bold my-5  flex justify-center items-center name-${character?.house?.slug}`}
       >
         {character?.name}
       </h1>
@@ -62,12 +62,12 @@ function page() {
         />
       </div>
       <div className="mt-10 ">
-        <p className={`text-2xl font-bold name-${character?.house.slug} `}>
-          {character?.house.name}
+        <p className={`text-2xl font-bold name-${character?.house?.slug} `}>
+          {character?.house?.name}
         </p>
       </div>
       <div className="my-10">
-        <p className={`text-2xl name-${character?.house.slug}`}>Quotes : </p>
+        <p className={`text-2xl name-${character?.house?.slug}`}>Quotes : </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {character?.quotes.map((quote) => {
