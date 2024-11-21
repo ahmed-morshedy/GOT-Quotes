@@ -4,12 +4,12 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #111827;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #111827;
     --foreground: #ededed;
   }
 }
@@ -18,4 +18,118 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-stark {
+  background-color: #000000;
+}
+
+.bg-targaryen {
+  background-color: #000000;
+}
+
+.bg-lannister {
+  background-color: #781a1d;
+}
+
+.bg-tyrell {
+  background-color: #87a27e;
+}
+
+.bg-tarly {
+  background-color: #545440;
+}
+
+.bg-baratheon {
+  background-color: #ffc300;
+}
+
+.bg-clegane {
+  background-color: #ffe116;
+}
+
+.bg-frey {
+  background-color: #696868;
+}
+
+.bg-mormont {
+  background-color: #009852;
+}
+
+.bg-tarth {
+  background-color: #ffffff;
+}
+
+.bg-baelish {
+  background-color: #e8bb00;
+}
+
+.bg-bolton {
+  background-color: #0e2c42;
+}
+
+.bg-greyjoy {
+  background-color: #211915;
+}
+
+.bg-martell {
+  background-color: #ff8830;
+}
+
+/*  */
+
+.name-stark {
+  color: #bcbdc0;
+}
+
+.name-targaryen {
+  color: #cc0000;
+}
+
+.name-lannister {
+  color: #e0a633;
+}
+
+.name-tyrell {
+  color: #fdc02b;
+}
+
+.name-tarly {
+  color: #952126;
+}
+
+.name-baratheon {
+  color: #201d1f;
+}
+
+.name-clegane {
+  color: #080808;
+}
+
+.name-frey {
+  color: #070939;
+}
+
+.name-mormont {
+  color: #000;
+}
+
+.name-tarth {
+  color: #093589;
+}
+
+.name-baelish {
+  color: #040000;
+}
+
+.name-bolton {
+  color: #a50106;
+}
+
+.name-greyjoy {
+  color: #f8e12e;
+}
+
+.name-martell {
+  color: #952126;
 }

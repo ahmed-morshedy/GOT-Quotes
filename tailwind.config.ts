@@ -9,8 +9,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        stark: "#3A3B6D",
+        lannister: "#6D3A3A",
+        targaryen: "#6D3A6D",
       },
     },
   },
