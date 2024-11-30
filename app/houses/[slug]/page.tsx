@@ -4,6 +4,7 @@ import { useParams } from "next/navigation";
 import { fetchData } from "@/app/lib/data";
 import CharacterCard from "@/app/components/CharacterCard";
 import SkeletonCharacterCard from "@/app/components/SkeletonCharacterCard";
+import Image from "next/image";
 
 interface Params {
   slug?: string;
@@ -58,10 +59,10 @@ const HousePage = () => {
   }
 
   return (
-    <div className="bg-gray-800 text-white py-20 px-10">
+    <div className="bg-gray-800 text-white py-20 px-10 flex flex-col items-center justify-center">
       {/* Display House Name and Slug */}
       <h1 className="text-xl md:text-3xl font-bold flex justify-center items-center">
-        House{" "}
+        House
         <span className={`bg-${house?.slug} p-2 name-${house?.slug} rounded`}>
           {house?.slug.toUpperCase()}
         </span>
@@ -69,10 +70,12 @@ const HousePage = () => {
 
       {/* House Image */}
       <div>
-        <img
+        <Image
           src={`/${house?.slug}.png`}
           alt={`House ${house?.name}`}
           className="rounded mt-5"
+          width={300}
+          height={100}
         />
       </div>
 
@@ -81,9 +84,9 @@ const HousePage = () => {
       </div>
 
       {/* Displaying Members */}
-      <div className="mt-5">
+      <div className="mt-5 items-center justify-center flex flex-col">
         <h2 className="text-3xl my-7 font-bold">Characters</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
           {house?.members && house?.members?.length > 0
             ? house.members.map((member) => (
                 <CharacterCard

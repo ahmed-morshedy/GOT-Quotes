@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface HouseCardProps {
   description: string;
   name: string;
@@ -12,10 +14,12 @@ const HouseCard: React.FC<HouseCardProps> = ({ description, name }) => {
         {name.toUpperCase()}
       </h3>
       <div className="flex justify-center items-center my-3">
-        <img
-          src={`${name}.png`}
+        <Image
+          width={140}
+          height={100}
+          src={`/${name}.png`}
           alt={`${name} house Logo`}
-          className={`h-32 rounded-2xl `}
+          className={` rounded-2xl `}
         />
       </div>
       <p className={`mt-2 text-2xl font-bold name-${name}`}>{description}</p>

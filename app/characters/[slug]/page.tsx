@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import { fetchData } from "@/app/lib/data";
 import QuoteCard from "@/app/components/QuoteCard";
+import Image from "next/image";
 
 interface Params {
   slug?: string;
@@ -85,10 +86,12 @@ function Page() {
 
       {/* Character Image */}
       <div className="flex justify-center items-center">
-        <img
+        <Image
           src={`/characters/${character.slug}.png`}
           alt={`${character.slug} Photo`}
           className="rounded-xl"
+          width={300}
+          height={100}
         />
       </div>
 
