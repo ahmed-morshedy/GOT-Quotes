@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
     { text: "Home", href: "/" },
     { text: "Houses", href: "/houses" },
     { text: "Characters", href: "/characters" },
-    { text: "Random Quote", href: "/" },
+    { text: "Random Quote", href: "/random" },
   ];
 
   return (
