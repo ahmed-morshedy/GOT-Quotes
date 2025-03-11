@@ -63,7 +63,7 @@ const HousePage = () => {
       {/* Display House Name and Slug */}
       <h1 className="text-xl md:text-3xl font-bold flex justify-center items-center">
         House
-        <span className={`bg-${house?.slug} p-2 name-${house?.slug} rounded`}>
+        <span className={`bg-${house?.slug} p-2 name-${house?.slug} rounded-sm`}>
           {house?.slug.toUpperCase()}
         </span>
       </h1>
@@ -73,7 +73,7 @@ const HousePage = () => {
         <Image
           src={`/${house?.slug}.png`}
           alt={`House ${house?.name}`}
-          className="rounded mt-5"
+          className="rounded-sm mt-5"
           width={300}
           height={100}
         />

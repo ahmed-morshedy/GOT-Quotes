@@ -8,7 +8,7 @@ interface HouseCardProps {
 const HouseCard: React.FC<HouseCardProps> = ({ description, name }) => {
   return (
     <div
-      className={`p-6 rounded shadow-md hover:shadow-lg transition bg-${name} flex flex-col justify-between h-80`}
+      className={`p-6 rounded-sm shadow-md hover:shadow-lg transition bg-${name} flex flex-col justify-between h-80`}
     >
       <h3 className={`text-2xl font-bold name-${name}`}>
         {name.toUpperCase()}

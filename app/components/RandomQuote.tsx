@@ -60,10 +60,10 @@ const RandomQuote: React.FC<RandomQuoteProps> = ({ slug, sentence }) => {
     return (
       <div className="flex justify-center items-center flex-col animate-pulse">
         {/* Title Skeleton */}
-        <div className="h-8 w-48 bg-gray-300 rounded mb-4"></div>
+        <div className="h-8 w-48 bg-gray-300 rounded-sm mb-4"></div>
 
         {/* Name Skeleton */}
-        <div className="h-6 w-32 bg-gray-300 rounded my-3"></div>
+        <div className="h-6 w-32 bg-gray-300 rounded-sm my-3"></div>
 
         {/* Image Skeleton */}
         <div className="shadow-lg my-3">

@@ -54,7 +54,7 @@ const Navbar: React.FC = () => {
 
         <button
           onClick={toggleMenu}
-          className="md:hidden text-2xl focus:outline-none "
+          className="md:hidden text-2xl focus:outline-hidden "
         >
           <span
             className={` inset-0 flex items-center justify-center transform transition-transform duration-300  ${

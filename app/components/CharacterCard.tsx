@@ -14,11 +14,11 @@ const CharacterCard: React.FC<CharacterCardProps> = ({
 }) => {
   return (
     <Link href={`/characters/${slug}`}>
-      <div className=" rounded shadow-md hover:shadow-lg transition bg-gray-700 text-white flex justify-between flex-col">
+      <div className=" rounded-sm shadow-md hover:shadow-lg transition bg-gray-700 text-white flex justify-between flex-col">
         <Image
           src={`/characters/${slug}.png`}
           alt={description}
-          className="rounded rounded-b-none w-full h-[28rem] "
+          className="rounded-sm rounded-b-none w-full h-[28rem] "
           width={300}
           height={100}
         />

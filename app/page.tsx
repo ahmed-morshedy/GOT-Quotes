@@ -30,7 +30,7 @@ const Home = () => {
         {/* Random Quotes */}
         <Link
           href={"/random"}
-          className="mt-6 bg-red-600 px-4 py-2 text-white rounded hover:bg-red-500 transition"
+          className="mt-6 bg-red-600 px-4 py-2 text-white rounded-sm hover:bg-red-500 transition"
         >
           Generate Random Quote
         </Link>
