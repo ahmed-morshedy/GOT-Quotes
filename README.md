@@ -2,7 +2,7 @@
 
 A Game of Thrones quote generator and task management application built with Next.js, TypeScript, and Tailwind CSS.
 
-![GOT Quotes Screenshot](public/screenshot.png)
+![GOT Quotes Screenshot](public/game-of-thrones.png)
 
 ## Live Demo
 
@@ -29,46 +29,6 @@ A Game of Thrones quote generator and task management application built with Nex
 
 - Node.js 14.x or later
 - npm or yarn
-
-### Installation
-
-1. Clone the repository
-   ```bash
-   git clone https://github.com/ahmed-morshedy/GOT-Quotes.git
-   cd GOT-Quotes
-   ```
-
-2. Install dependencies
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-3. Run the development server
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-## Deployment
-
-The application is deployed on Vercel. To deploy your own version:
-
-1. Push your code to a GitHub repository
-2. Import the project into Vercel
-3. Deploy with a single click
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgements
 
