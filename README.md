@@ -1,6 +1,6 @@
 # GOT Quotes
 
-A Game of Thrones quote generator and task management application built with Next.js, TypeScript, and Tailwind CSS.
+A Game of Thrones quote generator application built with Next.js, TypeScript, and Tailwind CSS.
 
 ![GOT Quotes Screenshot](public/game-of-thrones.png)
 
